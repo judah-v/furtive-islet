@@ -1,0 +1,83 @@
+@import url(base.css);
+body {
+    color: white;
+    padding: 0px;
+    margin: 0px;
+    height: 100vh;
+    overflow: hidden;
+}
+
+form {
+    display: block;
+    width: 40vw;
+    min-width: 700px;
+    height: 40vh;
+    margin: auto;
+    padding: 20vh;
+}
+input[type="submit"] {
+    background-color: transparent;
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+    padding: 30px;
+    margin-right: 0;
+
+}
+input[type="submit"]:hover {
+    color: maroon;
+    transition: .3s;
+    cursor: pointer;
+}
+select {
+    background-color: transparent;
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+}
+select option {
+    color: black;
+}
+input {
+    background-color: transparent;
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+    max-width: 40%;
+    min-width: 325px;
+}
+label {
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+    text-align: right;
+}
+input, select {
+    margin-left: 20px;
+}
+#No_ppl {
+    width: 44%;
+    min-width: 343px;
+    height: 2em;
+}
+
+form *{
+    padding: 1vh;
+}
+
+#form_date {
+    width: 3;
+    height: 2em;
+}
+.cw {
+    color: white;
+}
+.hover_text a{
+    color: inherit;
+}
+@media (max-width: 900px){
+    form {
+        padding: 20vh 10vh;
+    }
+}

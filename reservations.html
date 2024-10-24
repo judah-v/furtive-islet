@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reservations.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Make a Reservation</title>
+</head>
+<body>
+    <div class="bg-cover">
+        <nav id="nav">
+            <ul>
+                <li><a href='index.html'>About</a></li>
+                <li><a href='menu.html'>Menu</a></li>
+                <li><a href='reservations.html'>Reservations</a></li>
+            </ul>
+        </nav>
+        <form action="#">
+            <table>
+                <tr>
+                    <th>
+                        <label for="No_ppl">Number of people</label>
+                    </th>
+                    <td>
+                        <select name="No_ppl" id="No_ppl">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th><label for="form_date">Date/Time</label></th>
+                    <td><input type="datetime-local" name="date" id="form_date"></td>
+                </tr>
+                <tr>
+                    <th><label for="number">Phone Number</label></th>
+                    <td>
+                        <input type="number" id="number">
+                    </td>
+                </tr>
+                
+                <tr>
+                    <th></th>
+                    <td>
+                        <input type="submit" value="Submit">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+<p class="cw">&copy Judah Valerie, 2024</p>
+</body>
+</html>

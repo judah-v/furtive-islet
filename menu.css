@@ -1,0 +1,51 @@
+@import url(base.css);
+body {
+    color: white;
+}
+table {
+    width: 40vw;
+    height: 40vh;
+    margin: 0 auto;
+}
+table td {
+    width: 20vh;
+    justify-content: center;
+}
+table td img {
+    width: 40vh;
+    
+    margin: 3.35px 3vw;
+
+}
+table td img:first-of-type {
+    margin-top: 10vh;
+}
+table td p {
+
+    font-weight: bold;
+    font-size: 2.01em;
+    text-align: center;
+}
+.hover_text {
+    color: transparent;
+    margin: 0px;
+    padding: 0px;
+}
+.hover_text:hover {
+    color: inherit;
+    transition-duration: 2s;
+}
+#egg {
+    float: right;
+    padding: 0px;
+}
+.bg-cover {
+    background-color: rgba(0,0,0,0.9);
+}
+.bg-cover > p {
+    padding: 0 0 1vh 1vh;
+    margin-bottom: 0;
+}
+.bg-cover a{
+    color: lightblue;
+}

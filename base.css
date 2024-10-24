@@ -1,0 +1,94 @@
+body {
+    background: fixed no-repeat url(beach.jpg);
+    background-size: cover;
+    font-family: "Raleway", sans-serif;
+    margin: 0px;
+    
+}
+.bg-cover {
+    display: block;
+    background-color: rgba(0,0,0,.9);
+    width: 100%;
+    height: 100%;
+}
+#nav {
+    z-index: 99999;
+    position: fixed;
+    width: 20.1vw;
+    max-width: fit-content;
+    min-width: fit-content;
+    height: 100%;
+    align-items: center;
+    
+}
+#nav > ul >li {
+    background-color: white;
+    padding: 13.4px 1.34vw 13.4px 0;
+    list-style: none;
+    font-family: "Raleway", sans-serif;
+    font-size: 1.34em;
+    
+}
+#nav > ul > li > a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 13.4px 1.34vw;
+
+}
+#nav > ul > li > a:hover {
+    color: maroon;
+    transition: all 0.35s;
+
+}
+.cw {
+    position: fixed;
+    bottom: .67vh;
+    left: 2.68vh;
+    font-size: 1em;
+    color: white;
+}
+.hover_text:hover, .hover_text a {
+    color: white !important;
+    transition: 1.5s;
+}
+.hover_text a:hover {
+    color:rgb(146, 1, 1) !important;
+    transition-duration: .7s;
+}
+
+@media (max-width: 1200px) {
+    .cw {
+        position: fixed;
+        color: black;
+        bottom: .67vh;
+        left: 2.68vh;
+        z-index: 999;
+    }
+    #nav {
+        z-index: 99999;
+        display: inline-flex;
+        height: 5.36vh;
+        width: 99%;
+        max-width: none;
+        min-width: fit-content;
+        align-content: center;
+        background-color: white;
+
+    
+    }
+    #nav > ul > li {
+        background-color: transparent;
+        display: inline-block;
+        padding: 0px;
+        border-radius: 1.34px;
+    }
+    #nav > ul > li > a {
+        padding: 0px 13.4px;
+    }
+    #nav > ul > li > a:hover {
+        border-bottom: .67px solid maroon;
+
+    }
+}

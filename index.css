@@ -1,0 +1,156 @@
+@import url(base.css);
+p.g {
+    font: bold 1.34em "Raleway", sans-serif;
+    color: white;
+    position: relative;
+    margin: 0;
+    display: inline-block;
+    font-size: 2.1vw;
+    
+
+
+}
+.list {
+    top: 380vh;
+    left: 15vw;
+    color: black;
+    font-weight: bold;
+    font-size: 1.4em;
+}
+p.list {
+    margin: 0;
+    position: relative;
+    top: 4.75%;
+    left: 5%;
+}
+ul.list {
+    margin: 0;
+    position: relative;
+    top: 4.75%;
+    left: 10%;
+}
+#smoothie {
+    margin-top: -6.7em;
+}
+p.graphic1 {
+    top: 5.67%;
+    left: 40.5%;
+}
+p.graphic2 {
+    top: 2%;
+    left: 6.125%;
+
+}
+p.graphic3 {
+    top: 16.88%;
+    left: 52%;
+}
+p.graphic4 {
+    color: inherit;
+    top: 80%;
+    left: 36.5%;
+}
+.hover_text, .hover_text a{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    color: transparent;
+
+}
+
+
+.grid {
+    display: grid;
+    columns: 2;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "col1 col2";
+
+}
+.grid img {
+    width: 100%;
+    height: auto;
+    padding-bottom: 6.7px;
+}
+img.g:first {
+    margin-top: -5.2vh;
+}
+img.g {
+    margin-top: -5.5vh;
+}
+img.graphic4 {
+    margin-top: -10vh;
+}
+.col1 {
+    grid-area: col1;
+}
+.col2 {
+    grid-area: col2;
+    padding-left: 6.7px;
+}
+.name {
+    position: absolute;
+    font-family: "Londrina Sketch", sans-serif;
+    font-size: 6.7em;
+    font-weight: bold;
+    color: rgb(125, 44, 44);
+    top: -5vh;
+    left: 25vw;
+}
+.grid img:last-of-type {
+    padding-bottom: 0px;
+}
+@media (max-width: 1300px) {
+    img.g {
+        margin-top: -4.5vh;
+    }
+    img.graphic4 {
+        margin-top: -8.5vh;
+    }
+}
+@media (max-width: 1200px) {
+    p.g {
+        font-size: 4.2vw;
+
+    }
+    .name {
+        left: 5.36vw;
+        font-size: 5em;
+    }
+    .grid {
+        display: flex;
+        width: 100%;
+    }
+    .col1 {
+        display: none;
+    }
+    .col2 {
+        width: 100%;
+        min-width: 705px;
+        padding: 0px;
+    }
+    img.g {
+        margin-top: -2.35em;
+    }
+    
+    img.graphic4 {
+        margin-top: -4.35em;
+    }
+    p.graphic1 {
+        top: 7%;
+        left: 44%;
+
+    }
+    p.graphic2 {
+        top: 2.5%;
+        left: 6.125%;
+    }
+    p.graphic3 {
+        top: 17.5%;
+        left: 51.75%;
+    }
+    p.graphic4 {
+        top: 73%;
+        left: 41.65%;
+    }
+}
