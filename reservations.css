@@ -81,3 +81,28 @@ form *{
         padding: 20vh 10vh;
     }
 }
+@media (max-width: 675px){
+    form{
+        padding: 20vh 0;
+        margin: 0;
+        width: 99%;
+        min-width: 0px;
+    }
+    table {
+        max-width: 99vw;
+        padding: 1vh 0;
+    }
+    table td *{
+        width: 40px;
+    }
+    form * {
+        font-size: 1em;
+        min-width: 125px !important;
+    }
+    #nav {
+        max-width: 99vw;
+    }
+    input[type="submit"] {
+        font-size: 1em;
+    }
+}

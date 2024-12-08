@@ -49,3 +49,16 @@ table td p {
 .bg-cover a{
     color: lightblue;
 }
+@media(max-width: 675px){
+    table {
+        width: 40%;
+        padding: 2%;
+        margin: 0px;
+    }
+    table td img {
+        width: 40vw;
+        
+        margin: 3.35px;
+    
+    }
+}
